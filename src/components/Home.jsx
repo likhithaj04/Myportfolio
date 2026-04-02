@@ -6,7 +6,7 @@ import Skills from './Skills'
 import Project from './Project'
 import Contact from './Contact'
 import { FaJsSquare, FaReact, FaNodeJs, FaDatabase, FaTools } from "react-icons/fa";
-import resqheartimg from '../assets/ResQHeart.png';
+import resqheartimg from '../assets/ResQheart.png';
 import airviewsimg from '../assets/airviews.png';
 import analyser from '../assets/analyser.png';
 import artgallery from '../assets/artgallery.jpg';
