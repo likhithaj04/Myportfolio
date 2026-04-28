@@ -5,7 +5,7 @@ export default function About() {
   return (
     <section
       id="about"
-className="snap-start min-h-screen bg-black text-cream p-6 md:p-16">
+className="snap-start min-h-screen bg-black text-cream p-6 md:p-36">
 
       <div className='flex flex-col shadow-[0_0_40px_rgba(255,255,255,0.3)] md:p-10 md:mr-10'>
 
