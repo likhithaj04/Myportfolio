@@ -18,7 +18,7 @@ export default function Project({ projectData }) {
   return (
     <section
       id="project"
-      className="snap-start min-h-screen bg-black text-cream p-10"
+      className="snap-start min-h-screen bg-black text-cream p-10 pt-7"
     >
 
       <div className="flex gap-2 items-center">
