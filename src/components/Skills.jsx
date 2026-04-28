@@ -39,7 +39,7 @@ className="snap-start h-screen bg-black text-cream p-6 md:p-16">
     
         }
             </div>
-<div className='border-3 border-cream w-1/2 ml-auto h-1 mt-10 md:mt-50 my-3'></div>
+<div className='border-3 border-cream w-1/2 ml-auto h-1 mt-10 md:mt-50 mb-4 my-3'></div>
       </section>
     </>
   )
