@@ -136,20 +136,15 @@ const projectData = [
 ]
   return (
     <>
-<div className="relative">
-
+<div className="relative w-full">
   <SideNav />
-
-  <div className="h-screen overflow-y-scroll snap-y snap-mandatory scroll-smooth no-scrollbar">
+  <div className="h-screen w-full overflow-y-scroll snap-y snap-mandatory scroll-smooth no-scrollbar">
     <Landing />
     <About />
-    
     <Skills cardData={cardData} />
-
-   <Project projectData={projectData}/>
-   <Contact/>
+    <Project projectData={projectData}/>
+    <Contact/>
   </div>
-
 </div>
 
     </>

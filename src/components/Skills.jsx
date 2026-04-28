@@ -6,7 +6,7 @@ export default function Skills({cardData}) {
     <>
     <section
       id="skills"
-      className="snap-start h-screen bg-black text-cream md:p-30 p-10">
+className="snap-start h-screen bg-black text-cream p-6 md:p-16">
         
          <div className='flex gap-2'>
              <div className='border-3 border-cream w-30 h-1 my-3'></div>
@@ -39,7 +39,7 @@ export default function Skills({cardData}) {
     
         }
             </div>
-    <div className='border-3 border-cream w-120 md:w-350 ml-auto h-1 mt-90 md:mt-50 my-3'></div>
+<div className='border-3 border-cream w-1/2 ml-auto h-1 mt-10 md:mt-50 my-3'></div>
       </section>
     </>
   )

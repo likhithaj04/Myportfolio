@@ -9,9 +9,8 @@ export default function Landing() {
 
  <div className='flex flex-col'>
 
-     <div className='bg-black min-h-screen text-amber-50 p-6 sm:p-10 md:p-24'>
-
-      <div className='p-6 sm:p-20 '>
+     <div className='bg-black min-h-screen text-amber-50 pt-20 px-4 sm:px-10 md:px-24'>
+  <div className='px-2 sm:px-10'>
 
           <motion.div
   initial={{ opacity: 0, y: 14 }}
@@ -27,7 +26,7 @@ export default function Landing() {
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1.2, ease: "easeIn" }}
-        viewport={{ once: true }}className='font-serif font-bold text-[32px] sm:text-[60px] md:text-[120px]'>
+        viewport={{ once: true }}className='font-serif font-bold text-[28px] sm:text-[60px] md:text-[120px]'>
 
          <h3 className='mt-3 sm:mt-6 md:mt-10 text-amber-50 '>LIKHITHA </h3>
 

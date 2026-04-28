@@ -53,51 +53,44 @@ export default function SideNav() {
 
       </div>
 
-      <ul
-        className="
-        hidden md:flex
-        fixed right-0 top-1/2 -translate-y-1/2
-        flex-col gap-9
-        font-jakarta font-bold text-cream
-        "
-      >
+<ul
+  className="hidden md:flex fixed right-0 top-1/2 -translate-y-1/2 flex-col gap-9 font-jakarta font-bold text-cream z-40"
+>
+  <li>
+    <a href="#home"
+      className="border border-cream inline-block px-11 py-3 rounded-l-md transition-all duration-200 hover:ring-2 hover:ring-cream hover:ring-offset-2 ring-offset-black hover:scale-105 hover:-translate-x-1">
+      Home
+    </a>
+  </li>
 
-        <li>
-          <a href="#home"
-            className="border border-cream inline-block px-11 py-3 rounded-md transition-all duration-200 hover:ring-2 hover:ring-cream hover:ring-offset-2 ring-offset-black hover:scale-105 hover:-translate-x-1">
-            Home
-          </a>
-        </li>
+  <li>
+    <a href="#about"
+      className="border border-cream inline-block px-11 py-3 rounded-l-md transition-all duration-200 hover:ring-2 hover:ring-cream hover:ring-offset-2 ring-offset-black hover:scale-105 hover:-translate-x-1">
+      About
+    </a>
+  </li>
 
-        <li>
-          <a href="#about"
-            className="border border-cream inline-block px-11 py-3 rounded-md transition-all duration-200 hover:ring-2 hover:ring-cream hover:ring-offset-2 ring-offset-black hover:scale-105 hover:-translate-x-1">
-            About
-          </a>
-        </li>
+  <li>
+    <a href="#skills"
+      className="border border-cream inline-block px-12 py-3 rounded-l-md transition-all duration-200 hover:ring-2 hover:ring-cream hover:ring-offset-2 ring-offset-black hover:scale-105 hover:-translate-x-1">
+      Skills
+    </a>
+  </li>
 
-        <li>
-          <a href="#skills"
-            className="border border-cream inline-block px-12 py-3 rounded-md transition-all duration-200 hover:ring-2 hover:ring-cream hover:ring-offset-2 ring-offset-black hover:scale-105 hover:-translate-x-1">
-            Skills
-          </a>
-        </li>
+  <li>
+    <a href="#project"
+      className="border border-cream inline-block px-11 py-3 rounded-l-md transition-all duration-200 hover:ring-2 hover:ring-cream hover:ring-offset-2 ring-offset-black hover:scale-105 hover:-translate-x-1">
+      Project
+    </a>
+  </li>
 
-        <li>
-          <a href="#project"
-            className="border border-cream inline-block px-11 py-3 rounded-md transition-all duration-200 hover:ring-2 hover:ring-cream hover:ring-offset-2 ring-offset-black hover:scale-105 hover:-translate-x-1">
-            Project
-          </a>
-        </li>
-
-        <li>
-          <a href="#contact"
-            className="border border-cream inline-block px-10 py-3 rounded-md transition-all duration-200 hover:ring-2 hover:ring-cream hover:ring-offset-2 ring-offset-black hover:scale-105 hover:-translate-x-1">
-            Contact
-          </a>
-        </li>
-
-      </ul>
+  <li>
+    <a href="#contact"
+      className="border border-cream inline-block px-10 py-3 rounded-l-md transition-all duration-200 hover:ring-2 hover:ring-cream hover:ring-offset-2 ring-offset-black hover:scale-105 hover:-translate-x-1">
+      Contact
+    </a>
+  </li>
+</ul>
 
     </div>
   );

@@ -5,7 +5,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="snap-start min-h-screen bg-black text-cream p-10 md:p-30">
+className="snap-start min-h-screen bg-black text-cream p-6 md:p-16">
 
       <div className='flex flex-col shadow-[0_0_40px_rgba(255,255,255,0.3)] md:p-10 md:mr-10'>
 
@@ -99,7 +99,7 @@ export default function About() {
 
       </div>
 
-    <div className='border-3 border-cream w-120 md:w-350 ml-auto h-1 mt-90 md:mt-40 my-3'></div>
+<div className='border-3 border-cream w-1/2 ml-auto h-1 mt-10 md:mt-40 my-3'></div>
 
     </section>
   )
