@@ -21,7 +21,7 @@ export default function Project({ projectData }) {
       className="snap-start min-h-screen bg-black text-cream p-10 pt-7"
     >
 
-      <div className="flex gap-2 items-center">
+      <div className="flex gap-2 mt-10 items-center">
         <div className="border-3 border-cream w-30 h-1 my-3"></div>
         <h3 className="font-jakarta font-bold text-xl">Projects</h3>
         <div className="border-3 border-cream w-30 h-1 my-3"></div>
