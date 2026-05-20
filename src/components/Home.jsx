@@ -67,6 +67,23 @@ const projectData = [
   stack:[ "JavaScript, ReactJS, ExpressJS, TailwindCSS"],
   image:analyser,
   description:
+    "An AI powered tool that analyzes resumes and LinkedIn profiles to provide insights on strengths, weaknesses, and ATS compatibility.",
+  features: [
+    "Resume parsing and text extraction from uploaded files",
+    "AI powered scoring system for resume evaluation",
+    "LinkedIn profile analysis and feedback generation",
+    "Suggests improvements for ATS optimization",
+    "Clean UI with Tailwind CSS"
+  ],
+  integrations: ["Groq AI"],
+  github: "https://github.com/likhithaj04/AiAnalyser",
+  demo: "https://ai-analyser-28q7v1xt7-likhithas-projects-582bf488.vercel.app/"
+},
+{
+  title:"Trackly",
+  stack:[ "JavaScript, ReactJS, ExpressJS, TailwindCSS"],
+  image:trackly,
+  description:
   "A full-stack AI-powered job tracker that streamlines application management, generates personalized outreach messages from resumes, and provides analytics for better job search tracking.",
 
 features: [
@@ -78,16 +95,6 @@ features: [
   "Shared global state using React Context and useReducer",
   "Responsive and intuitive user interface"
 ],
-  integrations: ["Groq AI"],
-  github: "https://github.com/likhithaj04/AiAnalyser",
-  demo: "https://ai-analyser-28q7v1xt7-likhithas-projects-582bf488.vercel.app/"
-},
-{
-  title:"Trackly",
-  stack:[ "JavaScript, ReactJS, ExpressJS, TailwindCSS"],
-  image:trackly,
-  description:"",
-  features:[],
   integrations:"Groq API",
   github:"https://github.com/likhithaj04/Trackly",
   demo:"https://trackly-alpha-silk.vercel.app/app/addjob"
