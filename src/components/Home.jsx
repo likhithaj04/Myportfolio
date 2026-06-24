@@ -77,7 +77,7 @@ const projectData = [
   ],
   integrations: ["Groq AI"],
   github: "https://github.com/likhithaj04/AiAnalyser",
-  demo: "https://ai-analyser-28q7v1xt7-likhithas-projects-582bf488.vercel.app/"
+  demo: "https://ai-analyser-beta.vercel.app"
 },
 {
   title:"Trackly",
@@ -97,7 +97,7 @@ features: [
 ],
   integrations:"Groq API",
   github:"https://github.com/likhithaj04/Trackly",
-  demo:"https://trackly-alpha-silk.vercel.app/app/addjob"
+  demo:"https://trackly-alpha-silk.vercel.app"
 },
 
 {
@@ -133,7 +133,7 @@ features: [
   ],
   integrations: ["Ollama", "LangChain", "Pinecone"],
   github: "https://github.com/likhithaj04/Pet-careAssistant",
-  demo: ""
+  demo: "https://pet-care-assistant2.vercel.app/"
 },
 
 {
